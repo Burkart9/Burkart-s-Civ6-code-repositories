@@ -1,0 +1,126 @@
+/*
+	Ai Info
+	Authors: Burkart
+*/
+
+-----------------------------------------------
+-- AiListTypes
+-----------------------------------------------
+
+INSERT INTO AiListTypes
+		(ListType					)
+VALUES 	('LEADER_WEI_TECHS'			),
+		('LEADER_WEI_CIVICS'		),
+		('LEADER_WEI_DISTRICTS'		),
+		('LEADER_WEI_BUILDINGS'		),
+		('LEADER_WEI_PROJECTS'		),
+		('LEADER_WEI_DIPLOMACY'		),
+		('LEADER_WEI_UNITS'			),
+		('LEADER_WEI_TACTICS'		),
+		('LEADER_WEI_EXPANSION'		),
+		('LEADER_WEI_PSUEDOS'		),
+		-- XP1
+		('LEADER_WEI_ALLIANCES'		),
+		('LEADER_WEI_COMMEMORATIONS'),
+		-- XP2
+		('LEADER_WEI_DISCUSSIONS'	);
+
+-----------------------------------------------
+-- AiLists
+-----------------------------------------------
+
+INSERT INTO AiLists
+		(ListType,									AgendaType,						System				) -- AgendaType links to a TraitType, not an AgendaType... :/
+VALUES  ('LEADER_WEI_TECHS',						'TRAIT_LEADER_CN_CAO_CAO_UA',	'Technologies'		),
+		('LEADER_WEI_CIVICS',						'TRAIT_LEADER_CN_CAO_CAO_UA',	'Civics'			),
+		('LEADER_WEI_DISTRICTS',					'TRAIT_LEADER_CN_CAO_CAO_UA',	'Districts'			),
+		('LEADER_WEI_BUILDINGS',					'TRAIT_LEADER_CN_CAO_CAO_UA',	'Buildings'			),
+		('LEADER_WEI_PROJECTS',						'TRAIT_LEADER_CN_CAO_CAO_UA',	'Projects'			),
+		('LEADER_WEI_UNITS',						'TRAIT_LEADER_CN_CAO_CAO_UA',	'Units'				),
+		('LEADER_WEI_TACTICS',						'TRAIT_LEADER_CN_CAO_CAO_UA',	'Tactics'			),
+		('LEADER_WEI_DIPLOMACY',					'TRAIT_LEADER_CN_CAO_CAO_UA',	'DiplomaticActions'	),
+		('LEADER_WEI_EXPANSION',					'TRAIT_LEADER_CN_CAO_CAO_UA',	'PlotEvaluations'	),
+		('LEADER_WEI_PSUEDOS',						'TRAIT_LEADER_CN_CAO_CAO_UA',	'PsuedoYields'		),
+		-- XP1
+		('LEADER_WEI_ALLIANCES',					'TRAIT_LEADER_CN_CAO_CAO_UA',	'Alliances'			),
+		('LEADER_WEI_COMMEMORATIONS',				'TRAIT_LEADER_CN_CAO_CAO_UA',	'Commemorations'	),
+		-- XP2
+		('LEADER_WEI_DISCUSSIONS',					'TRAIT_LEADER_CN_CAO_CAO_UA',	'Discussions'		);
+
+-----------------------------------------------
+-- AiFavoredItems
+-----------------------------------------------
+
+INSERT INTO AiFavoredItems
+		(ListType,									Item,									Favored	)
+VALUES  -- TECHS
+		('LEADER_WEI_TECHS',						'TECH_CURRENCY',						1		), 
+		('LEADER_WEI_TECHS',						'TECH_ANIMAL_HUSBANDRY',				1		),
+		('LEADER_WEI_TECHS',						'TECH_BRONZE_WORKING',					1		),
+		('LEADER_WEI_TECHS',						'TECH_MASONRY',							1		),
+		('LEADER_WEI_TECHS',						'TECH_HORSEBACK_RIDING',				1		),
+		('LEADER_WEI_TECHS',						'TECH_WRITING',							1		),
+		('LEADER_WEI_TECHS',						'TECH_RADIO',							1		),
+		('LEADER_WEI_TECHS',						'TECH_ROCKETRY',						1		),
+		-- CIVICS
+		('LEADER_WEI_CIVICS',						'CIVIC_FOREIGN_TRADE',					1		),
+		('LEADER_WEI_CIVICS',						'CIVIC_MILITARY_TRADITION',				1		),
+		('LEADER_WEI_CIVICS',						'CIVIC_STATE_WORKFORCE',				1		), 
+		('LEADER_WEI_CIVICS',						'CIVIC_DRAMA_POETRY',					1		),
+		('LEADER_WEI_CIVICS',						'CIVIC_EXPLORATION',					1		),
+		('LEADER_WEI_CIVICS',						'CIVIC_FEUDALISM',						1		),
+		('LEADER_WEI_CIVICS',						'CIVIC_NATURAL_HISTORY',				1		), 
+		-- DISTRICTS
+		('LEADER_WEI_DISTRICTS',					'DISTRICT_ENCAMPMENT',					1		),
+		('LEADER_WEI_DISTRICTS',					'DISTRICT_COMMERCIAL_HUB',				1		),
+		('LEADER_WEI_DISTRICTS',					'DISTRICT_THEATER',						1		),
+		-- BUILDINGS
+		('LEADER_WEI_BUILDINGS',					'BUILDING_MONUMENT',					1		), 
+		('LEADER_WEI_BUILDINGS',					'BUILDING_LIBRARY',						1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_MARKET',						1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_STABLE',						1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_AMPHITHEATER',				1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_STOCK_EXCHANGE',				1		),
+		-- WONDERS
+		('LEADER_WEI_BUILDINGS',					'BUILDING_BIG_BEN',						1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_COLOSSUS',					1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_EIFFEL_TOWER',				1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_FORBIDDEN_CITY',				1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_GREAT_ZIMBABWE',				1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_OXFORD_UNIVERSITY',			1		),
+		('LEADER_WEI_BUILDINGS',					'BUILDING_PYRAMIDS',					1		),
+		-- DIPLOMACY
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_PROPOSE_TRADE',			1		),
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_RESIDENT_EMBASSY',			1		),
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_DIPLOMATIC_DELEGATION',	1		),
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_DECLARE_FRIENDSHIP',		1		),
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_ALLIANCE',					1		),
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_ALLIANCE_RESEARCH',		1		), -- XP1
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_ALLIANCE_MILITARY',		1		), -- XP1
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_ALLIANCE_ECONOMIC',		1		), -- XP1
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_ALLIANCE_CULTURAL',		1		), -- XP1
+		('LEADER_WEI_DIPLOMACY',					'DIPLOACTION_ALLIANCE_RELIGIOUS',		1		), -- XP1
+		-- ALLIANCES (XP1)
+		('LEADER_WEI_ALLIANCES',					'ALLIANCE_RESEARCH',					1		),
+		('LEADER_WEI_ALLIANCES',					'ALLIANCE_CULTURAL',					1		),
+		('LEADER_WEI_ALLIANCES',					'ALLIANCE_MILITARY',					1		),
+		('LEADER_WEI_ALLIANCES',					'ALLIANCE_ECONOMIC',					1		),
+		('LEADER_WEI_ALLIANCES',					'ALLIANCE_RELIGIOUS',					1		),
+		-- COMMEMORATIONS (XP1)
+		('LEADER_WEI_COMMEMORATIONS',				'COMMEMORATION_CULTURAL',				1		),
+		-- DISCUSSIONS (XP2)
+		('LEADER_WEI_DISCUSSIONS',					'WC_RES_LUXURY',						1		),
+		('LEADER_WEI_DISCUSSIONS',					'WC_EMERGENCY_BACKSTAB',				1		),
+		('LEADER_WEI_DISCUSSIONS',					'WC_RES_TRADE_TREATY',					1		);
+
+INSERT INTO AiFavoredItems
+		(ListType,							Item,						Favored,	Value,	StringVal					)
+VALUES  -- EXPANSION
+		('LEADER_WEI_EXPANSION',			'Resource Class',			1,			5,		'RESOURCECLASS_BONUS'		),
+		('LEADER_WEI_EXPANSION',			'Resource Class',			1,			10,		'RESOURCECLASS_STRATEGIC'	),
+		('LEADER_WEI_EXPANSION',			'Resource Class',			1,			5,		'RESOURCECLASS_LUXURY'		),
+		('LEADER_WEI_EXPANSION',			'New Resources',			1,			15,		NULL						),
+		-- PSUEDOS
+		('LEADER_WEI_PSUEDOS',				'PSEUDOYIELD_UNIT_TRADE',	1,			5,		NULL						),
+		('LEADER_WEI_PSUEDOS',				'PSEUDOYIELD_GPP_MERCHANT',	1,			50,		NULL						),
+		('LEADER_WEI_PSUEDOS',				'PSEUDOYIELD_IMPROVEMENT',	1,			5,		NULL						);

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<Players>
+		<!-- Base Support -->
+		<Row CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" CivilizationName="LOC_CIVILIZATION_JAPAN_NAME" CivilizationIcon="ICON_CIVILIZATION_JAPAN" LeaderName="LOC_LEADER_JP_ABE_NAME" LeaderIcon="ICON_LEADER_JP_ABE" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_JAPAN" LeaderAbilityName="LOC_TRAIT_LEADER_JP_ABE_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_JP_ABE_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_JP_ABE" Portrait="LEADER_JP_ABE_PORTRAIT" PortraitBackground='LEADER_T_ROOSEVELT_BACKGROUND'/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" CivilizationName="LOC_CIVILIZATION_JAPAN_NAME" CivilizationIcon="ICON_CIVILIZATION_JAPAN" LeaderName="LOC_LEADER_JP_ABE_NAME" LeaderIcon="ICON_LEADER_JP_ABE" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_JAPAN" LeaderAbilityName="LOC_TRAIT_LEADER_JP_ABE_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_JP_ABE_XP_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_JP_ABE" Portrait="LEADER_JP_ABE_PORTRAIT" PortraitBackground='LEADER_T_ROOSEVELT_BACKGROUND'/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" CivilizationName="LOC_CIVILIZATION_JAPAN_NAME" CivilizationIcon="ICON_CIVILIZATION_JAPAN" LeaderName="LOC_LEADER_JP_ABE_NAME" LeaderIcon="ICON_LEADER_JP_ABE" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_NAME" CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_ADJACENT_DISTRICTS_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_JAPAN" LeaderAbilityName="LOC_TRAIT_LEADER_JP_ABE_NAME" LeaderAbilityDescription="LOC_TRAIT_LEADER_JP_ABE_XP_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_JP_ABE" Portrait="LEADER_JP_ABE_PORTRAIT" PortraitBackground='LEADER_T_ROOSEVELT_BACKGROUND'/>
+	</Players>
+	<PlayerItems>
+		<Row CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" Type="UNIT_JAPANESE_SAMURAI" Icon="ICON_UNIT_JAPANESE_SAMURAI" Name="LOC_UNIT_JAPANESE_SAMURAI_NAME" Description="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" Type="BUILDING_ELECTRONICS_FACTORY" Icon="ICON_BUILDING_ELECTRONICS_FACTORY" Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" SortIndex="20"/>
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" Type="UNIT_JAPANESE_SAMURAI" Icon="ICON_UNIT_JAPANESE_SAMURAI" Name="LOC_UNIT_JAPANESE_SAMURAI_NAME" Description="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" Type="BUILDING_ELECTRONICS_FACTORY" Icon="ICON_BUILDING_ELECTRONICS_FACTORY" Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" Description="LOC_BUILDING_ELECTRONICS_FACTORY_DESCRIPTION" SortIndex="20"/>
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" Type="UNIT_JAPANESE_SAMURAI" Icon="ICON_UNIT_JAPANESE_SAMURAI" Name="LOC_UNIT_JAPANESE_SAMURAI_NAME" Description="LOC_UNIT_JAPANESE_SAMURAI_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_JAPAN" LeaderType="LEADER_JP_ABE" Type="BUILDING_ELECTRONICS_FACTORY" Icon="ICON_BUILDING_ELECTRONICS_FACTORY" Name="LOC_BUILDING_ELECTRONICS_FACTORY_NAME" Description="LOC_BUILDING_ELECTRONICS_FACTORY_EXPANSION2_DESCRIPTION" SortIndex="20"/>
+	</PlayerItems>
+	<MapLeaders>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" LeaderType="LEADER_JP_ABE"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" LeaderType="LEADER_JP_ABE"/>
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard.Civ6Map" LeaderType="LEADER_JP_ABE"/>
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" LeaderType="LEADER_JP_ABE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" LeaderType="LEADER_JP_ABE"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLWorldMapHuge_XP2.Civ6Map" LeaderType="LEADER_JP_ABE"/>
+	</MapLeaders>
+	<MapStartPositions>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLEarthStandard.Civ6Map" Plot="3518" Type="LEADER" Value="LEADER_JP_ABE"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLEarthStandard_XP2.Civ6Map" Plot="3518" Type="LEADER" Value="LEADER_JP_ABE"/>
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard.Civ6Map" Plot="3834" Type="LEADER" Value="LEADER_JP_ABE"/>
+		<Row Map="{1F367231-A040-4793-BDBB-088816853683}Maps/TSLEastAsiaStandard_XP2.Civ6Map" Plot="3834" Type="LEADER" Value="LEADER_JP_ABE"/>
+		<Row Map="../../Assets/Maps/EarthMaps/TSLWorldMapHuge.Civ6Map" Plot="5442" Type="LEADER" Value="LEADER_JP_ABE"/>
+		<Row Map="{4873eb62-8ccc-4574-b784-dda455e74e68}Maps/EarthMaps/TSLWorldMapHuge_XP2.Civ6Map" Plot="5442" Type="LEADER" Value="LEADER_JP_ABE"/>
+	</MapStartPositions>
+</GameData>

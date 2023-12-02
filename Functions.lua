@@ -283,7 +283,7 @@ function PlayerTurnStartedi(playerID)
 		print('_PlayerStatus:',_PlayerStatus)
 		if _PlayerStatus ~= nil  and _PlayerStatus ~= 0 then
 			if _PlayerStatus == Game.GetCurrentGameTurn() then --当计时属性Timer的值等于当前回合数时
-				print('This Turn is：',Game.GetCurrentGameTurn())
+				print('This Turn is:',Game.GetCurrentGameTurn())
 				pPlayer:SetProperty("Timer", 0)  --将计时属性的值归零，下回合不再触发此函数，直到再次建立城市在第一个函数中对其赋值。
 			else
 				pPlayer:GetTreasury():ChangeGoldBalance(1000)

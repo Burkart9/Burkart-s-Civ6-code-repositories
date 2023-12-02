@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_256.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_80.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_64.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="55" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_55.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_50.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_48.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_45.dds"/>
+		<Row Name="ATLAS_LEADER_LEADER_WEI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="ICON_LEADER_CN_CAO_CAO_32.dds"/>
+		<Row Name="ATLAS_icon1" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="icon1_22.dds"/>
+        <Row Name="ATLAS_icon1" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="icon1_32.dds"/>
+        <Row Name="ATLAS_icon1" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="icon1_38.dds"/>
+        <Row Name="ATLAS_icon1" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="icon1_50.dds"/>
+        <Row Name="ATLAS_icon1" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="icon1_80.dds"/>
+        <Row Name="ATLAS_icon1" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="icon1_256.dds"/>
+		<Row Name="ATLAS_PORTRAIT_HUBAO" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_HUBAO_38.dds"/>
+		<Row Name="ATLAS_PORTRAIT_HUBAO" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_HUBAO_50.dds"/>
+		<Row Name="ATLAS_PORTRAIT_HUBAO" IconSize="70" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_HUBAO_70.dds"/>
+		<Row Name="ATLAS_PORTRAIT_HUBAO" IconSize="95" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_HUBAO_95.dds"/>
+		<Row Name="ATLAS_PORTRAIT_HUBAO" IconSize="200" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_HUBAO_200.dds"/>
+		<Row Name="ATLAS_PORTRAIT_HUBAO" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="PORTRAIT_HUBAO_256.dds"/>
+	</IconTextureAtlases>
+
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_CN_CAO_CAO" Atlas="ATLAS_LEADER_LEADER_WEI" index="0"/>
+		<Row Name="ICON_UNIT_TIGER_CAVALRY" Atlas="ATLAS_icon1" Index="0"/>
+		<Row Name="ICON_UNIT_TIGER_CAVALRY_PORTRAIT" Atlas="ATLAS_PORTRAIT_HUBAO" Index="0"/>
+	</IconDefinitions>
+</GameData>

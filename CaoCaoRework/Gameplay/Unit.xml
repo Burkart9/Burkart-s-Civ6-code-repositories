@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Author: yhzg -->
+<!-- DateCreated: 02/13/20 14:58:05 Thu -->
+<GameData>
+	<Types>
+		<Row Type="UNIT_TIGER_CAVALRY" Kind="KIND_UNIT"/>
+		<Row Type="ABILITY_HUBAO" Kind="KIND_ABILITY"/>
+		<Row Type="TRAIT_LEADER_WEI_UNIT_TIGER_CAVALRY" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_HUBAO" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_TIGER_CAVALRY" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TIGER_CAVALRY" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TIGER_CAVALRY" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_TIGER_CAVALRY" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TIGER_CAVALRY" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<TypeTags>
+		<Row Type="UNIT_TIGER_CAVALRY" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_TIGER_CAVALRY" Tag="CLASS_HUBAO"/>
+		<Row Type="ABILITY_HUBAO" Tag="CLASS_HUBAO"/>
+	</TypeTags>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_TIGER_CAVALRY" UpgradeUnit="UNIT_CAVALRY"/>
+	</UnitUpgrades>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_TIGER_CAVALRY" ReplacesUnitType="UNIT_HORSEMAN"/>
+	</UnitReplaces>
+
+	<Units>
+		<Row UnitType="UNIT_TIGER_CAVALRY" Maintenance="3" BaseMoves="4" FormationClass="FORMATION_CLASS_LAND_COMBAT" Cost="80" BaseSightRange="2" ZoneOfControl="1" AdvisorType="ADVISOR_CONQUEST" PurchaseYield="YIELD_GOLD" StrategicResource="RESOURCE_HORSES" PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY" Description="LOC_UNIT_TIGER_CAVALRY_DESCRIPTION" Name="LOC_UNIT_TIGER_CAVALRY_NAME" TraitType="TRAIT_LEADER_WEI_UNIT_TIGER_CAVALRY" PrereqTech="TECH_HORSEBACK_RIDING" Combat="36" Domain="DOMAIN_LAND"/>
+	</Units>
+	
+	<Units_XP2>
+		<Row UnitType="UNIT_TIGER_CAVALRY" ResourceCost="20"/>
+	</Units_XP2>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_HUBAO" Name="LOC_ABILITY_HUBAO_NAME" Description="LOC_ABILITY_HUBAO_DESCRIPTION"/>
+	</UnitAbilities>
+
+	<ModifierStrings>
+		<Row ModifierId="MODIFIER_ABILITY_HUBAO" Context="Preview" Text="LOC_MODIFIER_ABILITY_HUBAO_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_WEI_UNIT_TIGER_CAVALRY" Name="LOC_TRAIT_LEADER_WEI_UNIT_TIGER_CAVALRY_NAME" Description="LOC_TRAIT_LEADER_WEI_UNIT_TIGER_CAVALRY_DESCRIPTION"/>
+	</Traits>
+
+</GameData>

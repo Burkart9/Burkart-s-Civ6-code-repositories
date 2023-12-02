@@ -1,0 +1,126 @@
+/*
+	Ai Info
+	Authors: Burkart
+*/
+
+-----------------------------------------------
+-- AiListTypes
+-----------------------------------------------
+
+INSERT INTO AiListTypes
+		(ListType						)
+VALUES 	('LEADER_JP_ABE_TECHS'			),
+		('LEADER_JP_ABE_CIVICS'			),
+		('LEADER_JP_ABE_DISTRICTS'		),
+		('LEADER_JP_ABE_BUILDINGS'		),
+		('LEADER_JP_ABE_PROJECTS'		),
+		('LEADER_JP_ABE_DIPLOMACY'		),
+		('LEADER_JP_ABE_UNITS'			),
+		('LEADER_JP_ABE_TACTICS'		),
+		('LEADER_JP_ABE_EXPANSION'		),
+		('LEADER_JP_ABE_PSUEDOS'		),
+		-- XP1
+		('LEADER_JP_ABE_ALLIANCES'		),
+		('LEADER_JP_ABE_COMMEMORATIONS' ),
+		-- XP2
+		('LEADER_JP_ABE_DISCUSSIONS'	);
+
+-----------------------------------------------
+-- AiLists
+-----------------------------------------------
+
+INSERT INTO AiLists
+		(ListType,									AgendaType,							System				) -- AgendaType links to a TraitType, not an AgendaType... :/
+VALUES  ('LEADER_JP_ABE_TECHS',						'TRAIT_LEADER_JP_ABE_UA',			'Technologies'		),
+		('LEADER_JP_ABE_CIVICS',					'TRAIT_LEADER_JP_ABE_UA',			'Civics'			),
+		('LEADER_JP_ABE_DISTRICTS',					'TRAIT_LEADER_JP_ABE_UA',			'Districts'			),
+		('LEADER_JP_ABE_BUILDINGS',					'TRAIT_LEADER_JP_ABE_UA',			'Buildings'			),
+		('LEADER_JP_ABE_PROJECTS',					'TRAIT_LEADER_JP_ABE_UA',			'Projects'			),
+		('LEADER_JP_ABE_UNITS',						'TRAIT_LEADER_JP_ABE_UA',			'Units'				),
+		('LEADER_JP_ABE_TACTICS',					'TRAIT_LEADER_JP_ABE_UA',			'Tactics'			),
+		('LEADER_JP_ABE_DIPLOMACY',					'TRAIT_LEADER_JP_ABE_UA',			'DiplomaticActions'	),
+		('LEADER_JP_ABE_EXPANSION',					'TRAIT_LEADER_JP_ABE_UA',			'PlotEvaluations'	),
+		('LEADER_JP_ABE_PSUEDOS',					'TRAIT_LEADER_JP_ABE_UA',			'PsuedoYields'		),
+		-- XP1
+		('LEADER_JP_ABE_ALLIANCES',					'TRAIT_LEADER_JP_ABE_UA',			'Alliances'			),
+		('LEADER_JP_ABE_COMMEMORATIONS',			'TRAIT_LEADER_JP_ABE_UA',			'Commemorations'	),
+		-- XP2
+		('LEADER_JP_ABE_DISCUSSIONS',				'TRAIT_LEADER_JP_ABE_UA',			'Discussions'		);
+
+-----------------------------------------------
+-- AiFavoredItems
+-----------------------------------------------
+
+INSERT INTO AiFavoredItems
+		(ListType,									Item,									Favored	)
+VALUES  -- TECHS
+		('LEADER_JP_ABE_TECHS',						'TECH_CURRENCY',						1		), 
+		('LEADER_JP_ABE_TECHS',						'TECH_ANIMAL_HUSBANDRY',				1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_BRONZE_WORKING',					1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_MASONRY',							1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_ECONOMICS',						1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_WRITING',							1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_RADIO',							1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_ROCKETRY',						1		),
+		('LEADER_JP_ABE_TECHS',						'TECH_CHEMISTRY',						1		),
+		-- CIVICS
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_FOREIGN_TRADE',					1		),
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_MILITARY_TRADITION',				1		),
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_STATE_WORKFORCE',				1		), 
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_DRAMA_POETRY',					1		),
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_EXPLORATION',					1		),
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_FEUDALISM',						1		),
+		('LEADER_JP_ABE_CIVICS',					'CIVIC_NATURAL_HISTORY',				1		), 
+		-- DISTRICTS
+		('LEADER_JP_ABE_DISTRICTS',					'DISTRICT_ENCAMPMENT',					1		),
+		('LEADER_JP_ABE_DISTRICTS',					'DISTRICT_COMMERCIAL_HUB',				1		),
+		('LEADER_JP_ABE_DISTRICTS',					'DISTRICT_INDUSTRIAL_ZONE',				1		),
+		-- BUILDINGS
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_MONUMENT',					1		), 
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_LIBRARY',						1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_MARKET',						1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_BANK',						1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_AMPHITHEATER',				1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_STOCK_EXCHANGE',				1		),
+		-- WONDERS
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_BIG_BEN',						1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_COLOSSUS',					1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_EIFFEL_TOWER',				1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_GREAT_ZIMBABWE',				1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_OXFORD_UNIVERSITY',			1		),
+		('LEADER_JP_ABE_BUILDINGS',					'BUILDING_PYRAMIDS',					1		),
+		-- DIPLOMACY
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_PROPOSE_TRADE',			1		),
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_RESIDENT_EMBASSY',			1		),
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_DIPLOMATIC_DELEGATION',	1		),
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_DECLARE_FRIENDSHIP',		1		),
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_ALLIANCE',					1		),
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_ALLIANCE_RESEARCH',		1		), -- XP1
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_ALLIANCE_MILITARY',		1		), -- XP1
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_ALLIANCE_ECONOMIC',		1		), -- XP1
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_ALLIANCE_CULTURAL',		1		), -- XP1
+		('LEADER_JP_ABE_DIPLOMACY',					'DIPLOACTION_ALLIANCE_RELIGIOUS',		1		), -- XP1
+		-- ALLIANCES (XP1)
+		('LEADER_JP_ABE_ALLIANCES',					'ALLIANCE_RESEARCH',					1		),
+		('LEADER_JP_ABE_ALLIANCES',					'ALLIANCE_CULTURAL',					1		),
+		('LEADER_JP_ABE_ALLIANCES',					'ALLIANCE_MILITARY',					1		),
+		('LEADER_JP_ABE_ALLIANCES',					'ALLIANCE_ECONOMIC',					1		),
+		('LEADER_JP_ABE_ALLIANCES',					'ALLIANCE_RELIGIOUS',					1		),
+		-- COMMEMORATIONS (XP1)
+		('LEADER_JP_ABE_COMMEMORATIONS',			'COMMEMORATION_CULTURAL',				1		),
+		-- DISCUSSIONS (XP2)
+		('LEADER_JP_ABE_DISCUSSIONS',				'WC_RES_LUXURY',						1		),
+		('LEADER_JP_ABE_DISCUSSIONS',				'WC_EMERGENCY_BACKSTAB',				1		),
+		('LEADER_JP_ABE_DISCUSSIONS',				'WC_RES_TRADE_TREATY',					1		);
+
+INSERT INTO AiFavoredItems
+		(ListType,							Item,						Favored,	Value,	StringVal					)
+VALUES  -- EXPANSION
+		('LEADER_JP_ABE_EXPANSION',			'Resource Class',			1,			5,		'RESOURCECLASS_BONUS'		),
+		('LEADER_JP_ABE_EXPANSION',			'Resource Class',			1,			10,		'RESOURCECLASS_STRATEGIC'	),
+		('LEADER_JP_ABE_EXPANSION',			'Resource Class',			1,			15,		'RESOURCECLASS_LUXURY'		),
+		('LEADER_JP_ABE_EXPANSION',			'New Resources',			1,			15,		NULL						),
+		-- PSUEDOS
+		('LEADER_JP_ABE_PSUEDOS',			'PSEUDOYIELD_UNIT_TRADE',	1,			15,		NULL						),
+		('LEADER_JP_ABE_PSUEDOS',			'PSEUDOYIELD_GPP_MERCHANT',	1,			50,		NULL						),
+		('LEADER_JP_ABE_PSUEDOS',			'PSEUDOYIELD_IMPROVEMENT',	1,			5,		NULL						);

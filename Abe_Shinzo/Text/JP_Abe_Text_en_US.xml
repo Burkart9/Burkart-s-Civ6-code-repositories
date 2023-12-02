@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader.sql -->
+		<Row Tag="LOC_TRAIT_LEADER_JP_ABE_UA_NAME" Language="en_US">
+			<Text>Abenomics</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JP_ABE_UA_DESCRIPTION" Language="en_US">
+			<Text></Text>
+		</Row>
+		<Row Tag="LOC_LEADER_JP_ABE_NAME" Language="en_US">
+			<Text>Abe Shinzo</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_JP_ABE_QUOTE" Language="en_US">
+			<Text>Politicians can be divided into those who fight and those who do not fight.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_JP_ABE" Language="en_US">
+			<Text></Text>
+		</Row>
+		<!-- Agenda.sql -->
+		<Row Tag="LOC_AGENDA_JP_ABE_NAME" Language="en_US">
+			<Text>Abe Doctrine</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_JP_ABE_DESCRIPTION" Language="en_US">
+			<Text>Abe likes civilzation with high standing army and economy, he hates civilzation with high economy but low standing army.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Your country has a strong military and a prosperous economy.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>The only thing you care about is the gold, you should care about your national defense.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JP_ABE_REASON_ANY" Language="en_US">
+			<!-- 领袖外交信息: AI对你的好感增加了的原因描述-->
+			<Text>(You have a great empire with strong army and high economy)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_JP_ABE_REASON_ANY" Language="en_US">
+			<!-- 领袖外交信息: AI对你的好感减少了的原因描述-->
+			<Text>(You have an empire with high economy but weak army)</Text>
+		</Row>
+		<!-- Diplomacy -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>OK, let's unite.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>No, this is not in Japan's interests.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Our cooperation now means a lot to both sides.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Wise move.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>All right.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>You challenge me? Hum...</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Now, I'm your rival.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Next time I won't show mercy.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Next time I won't show mercy.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>OK, I'll prepare a big meal.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>No.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>I sent a delegation to your capital to bring you matcha and sake.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>How dare you!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Why do you run counter to justice?[NEWLINE](Condemn you)</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>I am Abe Shinzo, leader of Japan. Where are you from?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Want to come and have a drink together?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Oh, it looks like I have a good neighbor.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Good morning.</Text>
+		</Row>
+		
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Alliance is good for both of us.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Armistice.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>No way!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>It's not good for both of us to keep fighting!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>OK.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>No way.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Can I go through your territory?</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>Your troops are too close to my border!</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JP_ABE_ANY}</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JP_ABE_ANY" Language="en_US">
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JP_ABE_ANY}</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

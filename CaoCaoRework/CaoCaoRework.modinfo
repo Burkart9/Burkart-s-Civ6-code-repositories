@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="077f8a56-aca5-4e08-8ef5-06c375ca4c71" version="1">
+  <Properties>
+    <Name>B_LEADER_CN_CAO_CAO_MOD_TITLE</Name>
+    <Description>B_LEADER_CN_CAO_CAO_MOD_DES</Description>
+    <Created>1680337024</Created>
+    <Teaser>B_LEADER_CN_CAO_CAO_MOD_TEA</Teaser>
+    <Authors>Burkart</Authors>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <LocalizedText>
+	<Text id="B_LEADER_CN_CAO_CAO_MOD_TITLE">
+	  <zh_Hans_CN>领袖：曹操，魏武帝</zh_Hans_CN>
+	  <en_US>Leader: Cao Cao, the Wu emperor of Wei Dynasty</en_US>
+	</Text>
+	<Text id="B_LEADER_CN_CAO_CAO_MOD_TEA">
+	  <zh_Hans_CN>为中国增加曹操作为领袖。</zh_Hans_CN>
+	  <en_US>Adds Cao Cao as China leader.</en_US>
+	</Text>
+	<Text id="B_LEADER_CN_CAO_CAO_MOD_DES">
+	  <zh_Hans_CN>你可以在创意工坊查看详细内容,觉得不错不要忘记点赞哦。</zh_Hans_CN>
+	  <en_US>Check it at workshop.</en_US>
+	</Text>
+  </LocalizedText>
+  <FrontEndActions>
+    <UpdateColors id="NewAction">
+      <File>Color.xml</File>
+    </UpdateColors>
+    <UpdateDatabase id="NewAction">
+      <File>Config.xml</File>
+      <File>Gameplay/Leader.sql</File>
+      <File>Gameplay/Unit.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="NewAction">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateText id="NewAction">
+      <File>Text/Texts in zhHans.xml</File>
+      <File>Text/Text_en_US.xml</File>
+    </UpdateText>
+    <UpdateArt id="NewAction">
+      <File>CaoCaoRework.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateColors id="NewAction">
+      <File>Color.xml</File>
+    </UpdateColors>
+    <UpdateText id="NewAction">
+      <File>Text/Texts in zhHans.xml</File>
+      <File>Text/City_Name.sql</File>
+      <File>Text/Pedia.sql</File>
+      <File>Text/Text_en_US.xml</File>
+    </UpdateText>
+    <UpdateIcons id="NewAction">
+      <File>Icons.xml</File>
+    </UpdateIcons>
+    <UpdateDatabase id="NewAction">
+      <File>Gameplay/Leader.sql</File>
+      <File>Gameplay/Unit.xml</File>
+      <File>Gameplay/UA.sql</File>
+      <File>Gameplay/Agenda.sql</File>
+      <File>Gameplay/Strategy.sql</File>
+      <File>Gameplay/Unit_Ability.sql</File>
+    </UpdateDatabase>
+    <UpdateArt id="NewAction">
+      <File>CaoCaoRework.dep</File>
+    </UpdateArt>
+    <AddGameplayScripts id="NewAction">
+      <File>Gameplay/LA.lua</File>
+    </AddGameplayScripts>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Units.artdef</File>
+    <File>CaoCaoRework.dep</File>
+    <File>Color.xml</File>
+    <File>Config.xml</File>
+    <File>Gameplay/Agenda.sql</File>
+    <File>Gameplay/LA.lua</File>
+    <File>Gameplay/Leader.sql</File>
+    <File>Gameplay/Strategy.sql</File>
+    <File>Gameplay/UA.sql</File>
+    <File>Gameplay/Unit.xml</File>
+    <File>Gameplay/Unit_Ability.sql</File>
+    <File>Icons.xml</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderWeiArt.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderWeiArt.blp</File>
+    <File>Text/City_Name.sql</File>
+    <File>Text/Pedia.sql</File>
+    <File>Text/Texts in zhHans.xml</File>
+    <File>Text/Text_en_US.xml</File>
+  </Files>
+</Mod>

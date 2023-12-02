@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<LocalizedText>
+		<!-- Leader.sql -->
+		<Row Tag="LOC_TRAIT_LEADER_CN_CAO_CAO_UA_NAME" Language="zh_Hans_CN">
+			<Text>建安风骨</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_CN_CAO_CAO_UA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>建造军营、商业中心和剧院广场区域内建筑时+50% [ICON_Production] 生产力，目的地城市中每个特殊区域为国内 [ICON_TradeRoute] 贸易路线提供+1 [ICON_Culture] 文化值。触发 [ICON_TechBoosted] 尤里卡或 [ICON_CivicBoosted] 鼓舞时+10 [ICON_GreatWriter] 大作家点数。</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CN_CAO_CAO_NAME" Language="zh_Hans_CN">
+			<Text>曹操</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_CN_CAO_CAO_QUOTE" Language="zh_Hans_CN">
+			<Text>老骥伏枥，志在千里；烈士暮年，壮心不已。</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_CN_CAO_CAO" Language="zh_Hans_CN">
+			<Text>深谋远虑的政治家、出奇制胜的军事家、才华横溢的文学家——曹操，您的才能为那些裂土分疆的军阀笼上绝望的阴影。当您的敌人在恐惧中谈及您的尊讳，您将指挥虎豹骑攻城掠阵，为怀才不遇的贤能之士提供发挥所长的舞台。只有一条道路能使天下太平，而这条道路必须孤身开拓。</Text>
+		</Row>
+		<!-- Agenda.sql -->
+		<Row Tag="LOC_AGENDA_CN_CAO_CAO_NAME" Language="zh_Hans_CN">
+			<Text>屯田</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_CN_CAO_CAO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>曹操喜爱拥有强大军事力量和庞大人口的文明，厌恶拥有强大军队但人口稀少的文明。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<Text>您的国家军队强大、人口稠密。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<Text>你只在乎你的军队有多强大，却忽视了自己的子民。</Text>
+		</Row>	​
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_CN_CAO_CAO_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感增加了的原因描述-->
+			<Text>（你的军事力量强大，还有庞大的人口）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_CN_CAO_CAO_REASON_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI对你的好感减少了的原因描述-->
+			<Text>（你的军事力量强大，但缺少人口）</Text>
+		</Row>
+		<!--UU-->
+		<Row Tag="LOC_UNIT_TIGER_CAVALRY_NAME" Language="zh_Hans_CN">
+			<Text>虎豹骑</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TIGER_CAVALRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>曹操作为中华帝国领袖时替代骑手的专属单位，此单位有更高的维护费。与受伤单位战斗时+5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HUBAO_NAME" Language="zh_Hans_CN">
+			<Text>悍勇</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_HUBAO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与受伤单位战斗时+5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_MODIFIER_ABILITY_HUBAO_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与受伤单位战斗时+5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<!-- Diplomacy -->
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
+			<Text>好，让我们联合起来。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
+			<Text>不行，你不能和我一起行动。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
+			<Text>我们的合作对双方都有意义。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
+			<Text>明智之举。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
+			<Text>……好吧……</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你对这个AI宣战 -->
+			<Text>你挑战我？哼……</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当这个AI向你宣战 -->
+			<Text>现在，我是你的对手。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI被其他AI击败会说这些话 -->
+			<Text>我输了……</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你击败AI他会说这些-->
+			<Text>很好，下次交手的时候，我可不留情。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI同意你的代表团-->
+			<Text>好，我会准备丰盛的大餐招待他们。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI拒绝你的代表团-->
+			<Text>不，不行。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<Text>我派遣了一支代表团前往您的首都为您带去礼物。</Text>
+			<!-- 领袖外交信息: 当AI派遣代表团的时候-->
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你公开指责AI-->
+			<Text>大胆！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当AI公开指责你-->
+			<Text>你为何与正义背道而驰？[NEWLINE]（谴责你）</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI-->
+			<Text>我是大汉魏王曹操，告诉我，你从何处来？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他对你有好感的时候？-->
+			<Text>要不要来校场友好切磋一番？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 当你第一次遇到AI并且他离你比较近的时候？-->
+			<Text>哦，看起来我有一个好邻居。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: 一般打招呼用-->
+			<Text>早上好。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI允许你同盟-->
+			<Text>结盟对你我是好事。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你和平的请求-->
+			<Text>停战。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你和平的请求-->
+			<Text>不可能！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI主动提出和平的请求-->
+			<Text>继续打下去对我们双方不好！</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI答应你通过他的领地-->
+			<Text>可以。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI拒绝你通过他的领地-->
+			<Text>现在不行。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
+			<Text>我能不能通过你的领土？</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI说你大军压境-->
+			<Text>以武力威胁我，你这是在自寻死路。</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI他提出一个交易？-->
+			<Text>{LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CN_CAO_CAO_ANY}</Text>
+		</Row>
+		​
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_CN_CAO_CAO_ANY" Language="zh_Hans_CN">
+			<!-- 领袖外交信息: AI他拒绝你的一个交易？-->
+			<Text>{LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CN_CAO_CAO_ANY}</Text>
+		</Row>
+		<!-- Pedia -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_TITLE" Language="zh_Hans_CN">
+			<Text>曹操</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_SUBTITLE" Language="zh_Hans_CN">
+			<Text>魏武帝</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_CN_CAO_CAO_QUOTE" Language="zh_Hans_CN">
+			<Text>{LOC_PEDIA_LEADERS_PAGE_CN_CAO_CAO_QUOTE}</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>曹操少年机警，任侠放荡，不治行业。二十岁时，举孝廉为郎，授洛阳北部尉。后任骑都尉，参与镇压黄巾军。迁济南相，奏免贪吏，禁断淫祀。征为东郡太守，不就，称疾归家。及董卓擅政，乃散家财起兵，与袁绍等共讨董卓。初平三年（192年）据兖州，分化诱降黄巾军三十余万，选其精锐编为青州军，自此兵力大振，先后击败袁术、陶谦、吕布等部。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>建安元年（196年），迎汉献帝至许（今河南许昌东），自为司空，行车骑将军事，总揽朝政。建安五年（200年），在官渡之战中大败袁绍主力，又先后削平袁尚、袁谭等势力。建安十二年（207年），击破乌桓，统一北方。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>建安十三年（208年），进位丞相。同年进攻荆州，与孙权、刘备联军展开赤壁之战，败归。建安十八年（213年），封魏公。建安二十年（215年），征张鲁，取汉中。次年进爵为魏王。建安二十五年（220年），病死于洛阳。曹丕代汉称帝后，追尊曹操为太祖武皇帝。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>曹操用人唯才，抑制豪强，加强集权，兴修水利，推动了汉末社会经济的恢复和发展。他知兵法，善诗文，多抒发政治抱负，反映汉末人民苦难，辞气慷慨，开建安文学之风。他的诸多文学作品被收录进今天的中国课本，被所有学生学习。今人辑有《曹操集》。另有《孙子略解》传世。曹操也很擅长书法，他的书法作品被《书断》评价为“妙品”。</Text>
+		</Row>
+		
+		<!-- 玩法 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">
+			<Text>曹操是一位多方面发展的领袖。他的领袖能力让他可以轻松取得大量 [ICON_Culture] 文化值，通过营造一个庞大的中心城市，他可以迅速地利用 [ICON_TradeRoute] 贸易路线发展周围城市。在建筑建造上的加成让他能够快速补强城市产出，无论是用大量的 [ICON_Gold] 金币支持庞大的军队寻求征服胜利，或者是利用 [ICON_Gold] 金币加快城市建设速度并追求文化胜利或者科技胜利，曹操都是一把好手。</Text>
+		</Row>
+		<!-- Summary -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_CAO_CAO_CHAPTER_CAPSULE_BODY" Language="zh_Hans_CN">
+			<Text>曹操在寻求文化胜利、征服胜利与科技胜利等方面皆有强大能力。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TIGER_CAVALRY_TITLE" Language="zh_Hans_CN">
+			<Text>虎豹骑</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TIGER_CAVALRY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>虎豹骑是曹操最为倚重的精英部队。据《三国志》裴松之注记载，《魏书》说：“纯所督虎豹骑，皆天下骁锐，或从百人将补之。” 可以看出，这支部队的成员皆是百里挑一，夸张一点来说，在普通部队中可以担任将领的人在“虎豹骑”中仅仅是一名普通的士兵，可以想象一下他的战斗力之强是三国部队中顶尖的。</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

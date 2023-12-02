@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<Players>
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationType="CIVILIZATION_CHINA" LeaderAbilityDescription="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CN_XIAOYAN" LeaderAbilityName="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_NAME" LeaderIcon="ICON_LEADER_CN_XIAOYAN" LeaderName="LOC_LEADER_CN_XIAOYAN_NAME" LeaderType="LEADER_CN_XIAOYAN" Portrait="LEADER_CN_XIAOYAN_PORTRAIT" PortraitBackground='LEADER_T_ROOSEVELT_BACKGROUND'/>
+		<!-- Expansion 1 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationType="CIVILIZATION_CHINA" LeaderAbilityDescription="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CN_XIAOYAN" LeaderAbilityName="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_NAME" LeaderIcon="ICON_LEADER_CN_XIAOYAN" LeaderName="LOC_LEADER_CN_XIAOYAN_NAME" LeaderType="LEADER_CN_XIAOYAN" Portrait="LEADER_CN_XIAOYAN_PORTRAIT" PortraitBackground='LEADER_T_ROOSEVELT_BACKGROUND' Domain="Players:Expansion1_Players"/>
+		<!-- Expansion 2 Support -->
+		<Row CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_EXPANSION2_DESCRIPTION" CivilizationAbilityIcon="ICON_CIVILIZATION_CHINA" CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_DYNASTIC_CYCLE_NAME" CivilizationIcon="ICON_CIVILIZATION_CHINA" CivilizationName="LOC_CIVILIZATION_CHINA_NAME" CivilizationType="CIVILIZATION_CHINA" LeaderAbilityDescription="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_DESCRIPTION" LeaderAbilityIcon="ICON_LEADER_CN_XIAOYAN" LeaderAbilityName="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_NAME" LeaderIcon="ICON_LEADER_CN_XIAOYAN" LeaderName="LOC_LEADER_CN_XIAOYAN_NAME" LeaderType="LEADER_CN_XIAOYAN" Portrait="LEADER_CN_XIAOYAN_PORTRAIT" PortraitBackground='LEADER_T_ROOSEVELT_BACKGROUND' Domain="Players:Expansion2_Players"/>
+	</Players>
+	<PlayerItems>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<LeaderType>LEADER_CN_XIAOYAN</LeaderType>
+			<Type>UNIT_CHINESE_CROUCHING_TIGER</Type>
+			<Name>LOC_UNIT_CHINESE_CROUCHING_TIGER_NAME</Name>
+			<Description>LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CHINESE_CROUCHING_TIGER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<LeaderType>LEADER_CN_XIAOYAN</LeaderType>
+			<Type>UNIT_CHINESE_CROUCHING_TIGER</Type>
+			<Name>LOC_UNIT_CHINESE_CROUCHING_TIGER_NAME</Name>
+			<Description>LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CHINESE_CROUCHING_TIGER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<LeaderType>LEADER_CN_XIAOYAN</LeaderType>
+			<Type>UNIT_CHINESE_CROUCHING_TIGER</Type>
+			<Name>LOC_UNIT_CHINESE_CROUCHING_TIGER_NAME</Name>
+			<Description>LOC_UNIT_CHINESE_CROUCHING_TIGER_DESCRIPTION</Description>
+			<Icon>ICON_UNIT_CHINESE_CROUCHING_TIGER</Icon>
+			<SortIndex>10</SortIndex>
+		</Row>
+		<Row>
+			<Domain>StandardPlayers</Domain>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<LeaderType>LEADER_CN_XIAOYAN</LeaderType>
+			<Type>IMPROVEMENT_GREAT_WALL</Type>
+			<Name>LOC_IMPROVEMENT_GREAT_WALL_NAME</Name>
+			<Description>LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_GREAT_WALL</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion1_Players</Domain>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<LeaderType>LEADER_CN_XIAOYAN</LeaderType>
+			<Type>IMPROVEMENT_GREAT_WALL</Type>
+			<Name>LOC_IMPROVEMENT_GREAT_WALL_NAME</Name>
+			<Description>LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_GREAT_WALL</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+		<Row>
+			<Domain>Players:Expansion2_Players</Domain>
+			<CivilizationType>CIVILIZATION_CHINA</CivilizationType>
+			<LeaderType>LEADER_CN_XIAOYAN</LeaderType>
+			<Type>IMPROVEMENT_GREAT_WALL</Type>
+			<Name>LOC_IMPROVEMENT_GREAT_WALL_NAME</Name>
+			<Description>LOC_IMPROVEMENT_GREAT_WALL_DESCRIPTION</Description>
+			<Icon>ICON_IMPROVEMENT_GREAT_WALL</Icon>
+			<SortIndex>20</SortIndex>
+		</Row>
+	</PlayerItems>
+</GameData>
