@@ -12,10 +12,10 @@
 			<Text>萧衍</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_CN_XIAOYAN_QUOTE" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>自我得之，自我失之，亦复何恨。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_CN_XIAOYAN" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>梁武帝，您需要将文化艺术提升至巅峰，确保宗教事业蓬勃发展。您的诗文创作和文化政策将激发后世文学艺术的发展，为江山文化留下丰厚遗产。您对佛教的提倡和支持，将开启中国佛教繁荣的新纪元，为后世留下宝贵的精神财富。前进吧，历史已在呼唤。</Text>
 		</Row>
 		<!-- Agenda.sql -->
 		<Row Tag="LOC_AGENDA_CN_XIAOYAN_NAME" Language="zh_Hans_CN">
@@ -162,16 +162,19 @@
 			<Text>{LOC_PEDIA_LEADERS_PAGE_CN_XIAOYAN_QUOTE}</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>梁武帝，原名萧衍，是中国南北朝时期南梁的开国皇帝。他在502年登基，建立了梁朝，是一个集文学家、史学家、佛教徒和政治家、军事家于一身的独特领导者。他的统治时期被认为是南朝文化和佛教的鼎盛时期。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>梁武帝对佛教的深厚信仰对他的统治有着显著影响。作为以学者身份在经文和佛学领域留下大量著述而出名的“和尚皇帝”，他在国内建立了众多佛寺，推动了佛教艺术和建筑的发展。他还是一位多产的诗人，对中国文学有着重要的贡献。此外，在史学方面，他不满《汉书》等断代史的写法，因而主持编撰了六百卷的《通史》。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>尽管在文化和宗教方面成就斐然，梁武帝在政治上的表现只能算差强人意。在他的统治早期，梁武帝励精图治，为南方带来了繁荣与稳定。但在他的统治后期，国内经常发生政治动荡和军事冲突，主要原因是由于他对佛教的过度投入导致对政治事务的忽视。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text></Text>
+			<Text>梁武帝的晚年被政治动荡和战乱所困扰。549年，侯景之乱爆发，梁武帝被俘。他于饥渴交加、气急攻心中去世，时年86岁，结束了其长达近半个世纪的统治。他被葬于修陵（今江苏丹阳市陵口）。谥号武帝，庙号高祖。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>梁武帝的统治是南朝中国文化和佛教的黄金时期。尽管他的统治并非完美，但他在文化和宗教方面的贡献为后世所铭记。</Text>
 		</Row>
 		<!-- 玩法 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_DETAILED_BODY" Language="zh_Hans_CN">

@@ -12,10 +12,10 @@
 			<Text>蕭衍</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_CN_XIAOYAN_QUOTE" Language="ja_JP">
-			<Text></Text>
+			<Text>この手で得たものはこの手で失われ、悔いはない。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_CN_XIAOYAN" Language="ja_JP">
-			<Text></Text>
+			<Text>梁の武帝よ、あなたは文化と芸術を頂点に高め、宗教事業を確実に繁栄させる必要があります。あなたの詩の創作と文化政策は、後世の文学と芸術の発展を刺激し、江山文化に豊かな遺産を残すでしょう。君の仏教の擁護と支援は、中国における仏教の新たな繁栄の時代を到来させ、貴重な精神的富を将来の世代に残すことになるでしょう。さあ、歴史が呼んでいます。</Text>
 		</Row>
 		<!-- Agenda.sql -->
 		<Row Tag="LOC_AGENDA_CN_XIAOYAN_NAME" Language="ja_JP">
@@ -162,16 +162,19 @@
 			<Text>{LOC_PEDIA_LEADERS_PAGE_CN_XIAOYAN_QUOTE}</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_1" Language="ja_JP">
-			<Text></Text>
+			<Text>蕭衍という名前の梁の武帝は、中国の南北朝時代に南梁を建国した皇帝でした。502年に即位して梁朝を建国した彼は、作家、歴史家、仏教者、政治家、軍事戦略家でもあったユニークな指導者でした。彼の治世は南朝文化と仏教の全盛期と考えられています。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_2" Language="ja_JP">
-			<Text></Text>
+			<Text>武帝の仏教に対する深い信仰は、彼の統治に大きな影響を与えました。学者として経典や仏教に関する豊富な著作で名高い「皇帝菩薩」として、国内に多くの仏教寺院を建立し、仏教美術や仏教建築の発展を推進しました。彼は多作な詩人でもあり、中国文学に重要な貢献をしました。また、歴史に関しては『漢書』などの断代史の記述方法に不満を持ち、全600巻の『通史』の編纂を主宰した。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_3" Language="ja_JP">
-			<Text></Text>
+			<Text>文化と宗教における彼の目覚ましい功績にもかかわらず、武帝の政治的業績は平均的としか考えられませんでした。武帝は治世の初期に中国南部に繁栄と安定をもたらすために熱心に働きました。しかし、治世の後期になると、仏教への過度の投資が政務軽視につながったことが主な原因で、国内では政治的混乱や軍事衝突が頻発した。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_4" Language="ja_JP">
-			<Text></Text>
+			<Text>武帝の晩年は政治的混乱と戦争に悩まされました。549年、侯景の乱が発生し、武帝は捕らえられた。彼は飢えと渇きと怒りのため86歳で亡くなり、半世紀近い統治に終止符を打った。彼は修陵に埋葬された。彼の諡号は武帝、寺号は高祖。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_5" Language="ja_JP">
+			<Text>武帝の治世は、南朝における中国文化と仏教の黄金時代でした。彼の統治は完璧ではありませんでしたが、文化的、宗教的貢献で記憶されています。</Text>
 		</Row>
 		<!-- 玩法 -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_DETAILED_BODY" Language="ja_JP">

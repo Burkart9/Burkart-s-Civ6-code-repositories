@@ -3,145 +3,145 @@
 	<LocalizedText>
 		<!-- Leader.sql -->
 		<Row Tag="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_NAME" Language="zh_Hant_HK">
-			<Text>安倍经济学</Text>
+			<Text>佛國興隆</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_CN_XIAOYAN_UA_DESCRIPTION" Language="zh_Hant_HK">
 			<Text></Text>
 		</Row>
 		<Row Tag="LOC_LEADER_CN_XIAOYAN_NAME" Language="zh_Hant_HK">
-			<Text>安倍晋三</Text>
+			<Text>蕭衍</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_CN_XIAOYAN_QUOTE" Language="zh_Hant_HK">
-			<Text>政治家可以分为两种：战斗的政治家和不战斗的政治家。</Text>
+			<Text>自我得之，自我失之，亦復何恨。</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_CN_XIAOYAN" Language="zh_Hant_HK">
-			<Text></Text>
+			<Text>梁武帝，您需要將文化藝術提升至巔峰，確保宗教事業蓬勃發展。您的詩文創作和文化政策將激發後世文學藝術的發展，為江山文化留下豐厚遺產。您對佛教的倡議與支持，將開啟中國佛教繁榮的新紀元，為後世留下寶貴的精神財富。前進吧，歷史已在呼喚。</Text>
 		</Row>
 		<!-- Agenda.sql -->
 		<Row Tag="LOC_AGENDA_CN_XIAOYAN_NAME" Language="zh_Hant_HK">
-			<Text>安倍主义</Text>
+			<Text>南梁雅集</Text>
 		</Row>
 		<Row Tag="LOC_AGENDA_CN_XIAOYAN_DESCRIPTION" Language="zh_Hant_HK">
-			<Text>安倍晋三喜爱经济繁荣、拥有强大军事力量的文明，厌恶经济繁荣但军事力量匮乏的文明。</Text>
+			<Text>蕭衍喜愛擁有大量信仰值和文化值的文明，厭惡在這兩方面有所欠缺的文明。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<Text>您的国家军队强大、经济繁荣。</Text>
+			<Text>您的國家信徒眾多、文化繁榮。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<Text>你只在乎你国库里的金钱，却忽视了战士手中的枪。</Text>
+			<Text>您的國家文化如此低俗、不堪。</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_CN_XIAOYAN_REASON_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI对你的好感增加了的原因描述-->
-			<Text>（你的军事力量强大，还有繁荣的经济）</Text>
+			<!-- 領袖外交信息: AI對你的好感增加了的原因描述-->
+			<Text>（你有大量信仰值，還有繁榮的文化）</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_CN_XIAOYAN_REASON_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI对你的好感减少了的原因描述-->
-			<Text>（你的国家经济繁荣，但缺少军队）</Text>
+			<!-- 領袖外交信息: AI對你的好感減少了的原因描述-->
+			<Text>（你的國家缺少信仰、文化凋敝）</Text>
 		</Row>
 		<!-- Diplomacy -->
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 你对AI宣布友谊允许的时候 -->
-			<Text>好，让我们联合起来。</Text>
+			<!-- 領袖外交信息: 你對AI宣布友誼允許的時候 -->
+			<Text>好，讓我們聯合起來。</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 你对AI宣布友谊被拒绝的时候 -->
-			<Text>不，这不符合日本的利益。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当AI对你宣布友谊的时候 -->
-			<Text>我们的合作对双方都有意义。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你同意AI对你的宣布友谊 -->
-			<Text>明智之举。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你拒绝AI对你的宣布友谊 -->
-			<Text>……好吧……</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你对这个AI宣战 -->
-			<Text>你挑战我？哼……</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当这个AI向你宣战 -->
-			<Text>现在，日本是你的对手。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当AI被其他AI击败会说这些话 -->
-			<Text>我输了……</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你击败AI他会说这些-->
-			<Text>很好，下次交手的时候，我可不留情。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当AI同意你的代表团-->
-			<Text>好，我会准备丰盛的大餐招待他们。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当AI拒绝你的代表团-->
-			<Text>不，不行。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<Text>我派遣了一支代表团前往您的首都为您送去上好的抹茶和清酒。</Text>
-			<!-- 领袖外交信息: 当AI派遣代表团的时候-->
-		</Row>
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你公开指责AI-->
-			<Text>大胆！</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当AI公开指责你-->
-			<Text>你为何与正义背道而驰？[NEWLINE]（谴责你）</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你第一次遇到AI-->
-			<Text>我是安倍晋三，日本的领导者。告诉我，你从何处来？</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你第一次遇到AI并且他对你有好感的时候？-->
-			<Text>要不要一起喝一杯？</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 当你第一次遇到AI并且他离你比较近的时候？-->
-			<Text>哦，看起来我有一个好邻居。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_GREETING_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: 一般打招呼用-->
-			<Text>早上好。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI允许你同盟-->
-			<Text>结盟对你我是好事。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI答应你和平的请求-->
-			<Text>停战。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI拒绝你和平的请求-->
-			<Text>不可能！</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI主动提出和平的请求-->
-			<Text>继续打下去对我们双方不好！</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI答应你通过他的领地-->
-			<Text>可以。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI拒绝你通过他的领地-->
-			<Text>现在不行。</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI询问你是否愿意让他的部队通过你的领地-->
-			<Text>我能不能通过你的领土？</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
-			<!-- 领袖外交信息: AI说你大军压境-->
-			<Text>以武力威胁我，你这是在自寻死路。</Text>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 你對AI宣布友誼被拒絕的時候 --> 
+			<Text>不，這有違佛法。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當AI對你宣布友誼的時候 --> 
+			<Text>我們的合作對雙方都有意義。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你同意AI對你的宣布友誼 --> 
+			<Text>明智之舉。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你拒絕AI對你的宣布友誼 --> 
+			<Text>……好吧……</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你對這個AI宣戰 --> 
+			<Text>你挑戰我？哼……</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當這個AI向你宣戰 --> 
+			<Text>現在，我是你的對手。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當AI被其他AI擊敗會說這些話 --> 
+			<Text>我輸了……</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你擊敗AI他會說這些--> 
+			<Text>很好，下次交手的時候，我可不留情。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當AI同意你的代表團--> 
+			<Text>好，我會準備上好的餐食招待他們。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當AI拒絕你的代表團--> 
+			<Text>不，不行。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<Text>我派遣了一支代表團前往您的首都為您送去上好的絲綢。</Text> 
+			<!-- 領袖外交信息: 當AI派遣代表團的時候--> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你公開指責AI--> 
+			<Text>大膽！</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當AI公開指責你--> 
+			<Text>你為何與正義背道而馳？[NEWLINE]（譴責你）</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你第一次遇到AI--> 
+			<Text>我是蕭衍，南方的領導者。告訴我，你從何處來？</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你第一次遇到AI並且他對你有好感的時候？--> 
+			<Text>要不要來我的詩會一叙？</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 當你第一次遇到AI並且他離你比較近的時候？--> 
+			<Text>看起來我有一個好鄰居。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: 一般打招呼用--> 
+			<Text>早上好。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI允許你同盟--> 
+			<Text>結盟對你我是好事。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI答應你和平的請求--> 
+			<Text>停戰。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI拒絕你和平的請求--> 
+			<Text>不可能！</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI主動提出和平的請求--> 
+			<Text>繼續打下去對我們雙方不好！</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI答應你通過他的領地--> 
+			<Text>可以。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI拒絕你通過他的領地--> 
+			<Text>現在不行。</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI詢問你是否願意讓他的部隊通過你的領地--> 
+			<Text>我能不能通過你的領土？</Text> 
+		</Row> 
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK"> 
+			<!-- 領袖外交信息: AI說你大軍壓境--> 
+			<Text>以武力威脅我，你這是在自尋死路。</Text> 
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_CN_XIAOYAN_ANY" Language="zh_Hant_HK">
 			<!-- 领袖外交信息: AI他提出一个交易？-->
@@ -153,31 +153,34 @@
 		</Row>
 		<!-- Pedia -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_TITLE" Language="zh_Hant_HK">
-			<Text>安倍晋三</Text>
+			<Text>蕭衍</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_SUBTITLE" Language="zh_Hant_HK">
-			<Text>内阁总理大臣</Text>
+			<Text>梁武帝</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_CN_XIAOYAN_QUOTE" Language="zh_Hant_HK">
 			<Text>{LOC_PEDIA_LEADERS_PAGE_CN_XIAOYAN_QUOTE}</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_1" Language="zh_Hant_HK">
-			<Text></Text>
+			<Text>梁武帝，原名蕭衍，是中國南北朝時期南樑的開國皇帝。他在502年登基，建立了梁朝，是個集文學家、史學家、佛教徒和政治家、軍事家於一身的獨特領導者。他的統治時期被認為是南朝文化和佛教的鼎盛時期。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_2" Language="zh_Hant_HK">
-			<Text></Text>
+			<Text>梁武帝對佛教的深厚信仰對他的統治有顯著影響。作為以學者身份在經文和佛學領域留下大量著述而出名的“和尚皇帝”，他在國內建立了眾多佛寺，推動了佛教藝術和建築的發展。他也是一位多產的詩人，對中國文學有著重要的貢獻。此外，在史學方面，他不滿《漢書》等斷代史的寫法，因而主持編撰了六百卷的《通史》。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_3" Language="zh_Hant_HK">
-			<Text></Text>
+			<Text>儘管在文化和宗教方面成就斐然，梁武帝在政治上的表現只能算差強人意。在他的統治早期，梁武帝勵精圖治，為南方帶來了繁榮與穩定。但在他的統治後期，國內經常發生政治動盪和軍事衝突，主要原因是由於他對佛教的過度投入導致對政治事務的忽視。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_4" Language="zh_Hant_HK">
-			<Text></Text>
+			<Text>梁武帝的晚年被政治動盪和戰亂所困擾。549年，侯景之亂爆發，梁武帝被俘。他於飢渴交加、氣急攻心中去世，時年86歲，結束了其近半世紀的統治。他被葬於修陵（今江蘇丹陽市陵口）。諡號武帝，廟號高祖。</Text>
 		</Row>
-		<!-- 玩法 -->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_HISTORY_PARA_5" Language="zh_Hant_HK">
+			<Text>梁武帝的統治是南朝中國文化和佛教的黃金時期。儘管他的統治並非完美，但他在文化和宗教方面的貢獻為後世所銘記。</Text>
+		</Row>
+		<!-- DETAILED -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_DETAILED_BODY" Language="zh_Hant_HK">
 			<Text></Text>
 		</Row>
-		<!-- Summary -->
+		<!-- CAPSULE -->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_CN_XIAOYAN_CHAPTER_CAPSULE_BODY" Language="zh_Hant_HK">
 			<Text></Text>
 		</Row>
